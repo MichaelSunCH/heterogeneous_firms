@@ -14,10 +14,11 @@ Heterogeneous firms (monopolistic, endogeneous exit, Bertrand competition, RBC/N
 ## Figures ##
 All codes for figures could be found in "figures.py".
 
-# Source code #
+# Addional changes to the source code to the source code #
 The solution method and codes are taken from Auclert, Bardóczy, Rognlie, Straub (2021): "Using the Sequence-Space Jacobian to Solve and Estimate Heterogeneous-Agent Models" and their github folder https://github.com/shade-econ/sequence-jacobian
+Additionally, I have modified the steady state calculation by adding "ss_with_dist_iter" function. This function guesses the distribution, solves heterogeneous agent block and then update the distribution guess. This is repeated until convergence. This function is needed for the Bertrand competition as firms need guesses for the distribution to come up with their policy functions.
 
 # Comments #
-To choose between different heterogeneous firms' problems change function name (from firm to firm_exit, for example) in three places: two times in the "steady_state...py" file where heterogeneous firms' problem is solved and one time in "dynamics...py" file in "pricing_het" block definition.
+To choose between different heterogeneous firms' problems change function name (from firm to firm_exit, for example) in three places: two times in the "steady_state...py" file where heterogeneous firms' problem is solved and one time in "dynamics...py" file in "pricing_het" block definition. 
 
 
