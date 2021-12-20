@@ -17,8 +17,8 @@ from dynamics_NK import arbitrage, firm_redefinition, share_value, pricing_het, 
               future_interest, taylor, fiscal, finance, wage, union, mkt_clearing
 
 T = 700
-block_list = [steady_state_as_RF.household_inc, arbitrage, firm_redefinition, share_value,
-              future_interest, taylor, fiscal, finance, wage, union, mkt_clearing, pricing_het, checks, markup]
+block_list = [steady_state_NK.household_inc, arbitrage, firm_redefinition, share_value,
+              future_interest, taylor, fiscal, finance, wage, union, mkt_clearing, pricing_het, markup]
 exogenous = ['rstar', 'Z', 'G', 'mup']
 unknowns = ['r', 'w', 'Y']
 targets = ['asset_mkt', 'wnkpc', 'fisher']
