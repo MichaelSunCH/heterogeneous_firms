@@ -1,5 +1,5 @@
-# heterogeneous_firms #
-Heterogeneous firms (monopolistic, endogeneous exit, Bertrand competition, RBC/NK)
+# heterogeneous_firms_open #
+Heterogeneous firms (monopolistic, endogeneous exit, Bertrand competition, RBC/NK) in an open economy
 
 # Structure of the code #
 ## Naming conventions ##
@@ -9,7 +9,7 @@ Heterogeneous firms (monopolistic, endogeneous exit, Bertrand competition, RBC/N
 - "het_firm.py": this file contains heterogeneous firms problems
 
 ## Available models ##
-- Heterogeneous firms with monopolistic competition, with endogeneous exit, with Bertrand competition. All models are available as RBC and as NK versions.
+- Heterogeneous firms with monopolistic competition, with endogeneous exit, with Bertrand competition. All models are available as RBC and as NK versions in an open economy environment.
 
 ## Figures ##
 All codes for figures could be found in "figures.py".
